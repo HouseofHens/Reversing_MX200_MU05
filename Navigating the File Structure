@@ -13,3 +13,5 @@ If we go into the boot directory we see that we have a file called core.gz. This
 That should result in a file simply titled core that if we run file on we can see is an ASCII CPIO Archive. We can decompress this file using the cpio command and more specifically: $ cpio -iv < core.
 
 This will dump the entirety of the file system into our current directory. 
+
+Once we have all of the directories we can then proceed into our opt/ directory where we will see another directory titled firmware/ in which we find 1.bin which is the firmware file located within the main branch.
