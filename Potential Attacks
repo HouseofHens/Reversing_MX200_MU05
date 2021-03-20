@@ -1,7 +1,8 @@
 Potential attacks file
 
 1. Watering hole attack on the Crucial.com website
- - Crucial is the manufacturing company for the Solid State Drive we chose to analyze. The crucial website is easily accessible by anyone seeking to learn more about Crucial      hardware components. We found that firmware updates can be dowloaded directly from the Crucial website, thus, executing a watering hole attack on the website would allow a 
+ - Crucial is the manufacturing company for the Solid State Drive we chose to analyze. The crucial website is easily accessible by anyone seeking to learn more about Crucial
+   hardware components. We found that firmware updates can be dowloaded directly from the Crucial website, thus, executing a watering hole attack on the website would allow 
    an attacker to infect users that visit the Crucial website. The watering hole attack would certainly take some hard work as it would likely require a zero-day vulnerability 
    to be found within a browser or other software extensions connected to the Crucial website. However, if one were able to execute a watering hole attack on the crucial 
    website and inject their own code into the firmware update files, they would be able to corrupt memory on the Crucial SSDs or even gain access to a shell on the victim's 
